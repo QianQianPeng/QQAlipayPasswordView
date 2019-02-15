@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2277841322168C5400196B6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277841222168C5400196B6B /* AppDelegate.m */; };
+		2277841622168C5400196B6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277841522168C5400196B6B /* ViewController.m */; };
+		2277841922168C5400196B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2277841722168C5400196B6B /* Main.storyboard */; };
+		2277841C22168C5400196B6B /* QQAlipayPasswordView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2277841A22168C5400196B6B /* QQAlipayPasswordView.xcdatamodeld */; };
+		2277841E22168C5500196B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2277841D22168C5500196B6B /* Assets.xcassets */; };
+		2277842122168C5500196B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2277841F22168C5500196B6B /* LaunchScreen.storyboard */; };
+		2277842422168C5500196B6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277842322168C5500196B6B /* main.m */; };
+		2277842E22168C5500196B6B /* QQAlipayPasswordViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277842D22168C5500196B6B /* QQAlipayPasswordViewTests.m */; };
+		2277843922168C5500196B6B /* QQAlipayPasswordViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277843822168C5500196B6B /* QQAlipayPasswordViewUITests.m */; };
+		2277844822168CBA00196B6B /* QQTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277844722168CBA00196B6B /* QQTransferViewController.m */; };
+		2277844C22168DE100196B6B /* QQTransferTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277844B22168DE100196B6B /* QQTransferTableView.m */; };
+		2277844F2216935600196B6B /* QQAlipayPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277844E2216935600196B6B /* QQAlipayPasswordView.m */; };
+		22778452221693C100196B6B /* QQConfirmationTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22778451221693C100196B6B /* QQConfirmationTableView.m */; };
+		227784552216960800196B6B /* QQEnterPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 227784542216960800196B6B /* QQEnterPasswordView.m */; };
+		227784582216982A00196B6B /* QQValidationCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 227784572216982A00196B6B /* QQValidationCodeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2277842A22168C5500196B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2277840622168C5400196B6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2277840D22168C5400196B6B;
+			remoteInfo = QQAlipayPasswordView;
+		};
+		2277843522168C5500196B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2277840622168C5400196B6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2277840D22168C5400196B6B;
+			remoteInfo = QQAlipayPasswordView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2277840E22168C5400196B6B /* QQAlipayPasswordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQAlipayPasswordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2277841122168C5400196B6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2277841222168C5400196B6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2277841422168C5400196B6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2277841522168C5400196B6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2277841822168C5400196B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2277841B22168C5400196B6B /* QQAlipayPasswordView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QQAlipayPasswordView.xcdatamodel; sourceTree = "<group>"; };
+		2277841D22168C5500196B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2277842022168C5500196B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2277842222168C5500196B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2277842322168C5500196B6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2277842922168C5500196B6B /* QQAlipayPasswordViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQAlipayPasswordViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2277842D22168C5500196B6B /* QQAlipayPasswordViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQAlipayPasswordViewTests.m; sourceTree = "<group>"; };
+		2277842F22168C5500196B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2277843422168C5500196B6B /* QQAlipayPasswordViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQAlipayPasswordViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2277843822168C5500196B6B /* QQAlipayPasswordViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQAlipayPasswordViewUITests.m; sourceTree = "<group>"; };
+		2277843A22168C5500196B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2277844622168CBA00196B6B /* QQTransferViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQTransferViewController.h; sourceTree = "<group>"; };
+		2277844722168CBA00196B6B /* QQTransferViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQTransferViewController.m; sourceTree = "<group>"; };
+		2277844A22168DE100196B6B /* QQTransferTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQTransferTableView.h; sourceTree = "<group>"; };
+		2277844B22168DE100196B6B /* QQTransferTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQTransferTableView.m; sourceTree = "<group>"; };
+		2277844D2216935600196B6B /* QQAlipayPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQAlipayPasswordView.h; sourceTree = "<group>"; };
+		2277844E2216935600196B6B /* QQAlipayPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQAlipayPasswordView.m; sourceTree = "<group>"; };
+		22778450221693C100196B6B /* QQConfirmationTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQConfirmationTableView.h; sourceTree = "<group>"; };
+		22778451221693C100196B6B /* QQConfirmationTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQConfirmationTableView.m; sourceTree = "<group>"; };
+		227784532216960800196B6B /* QQEnterPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQEnterPasswordView.h; sourceTree = "<group>"; };
+		227784542216960800196B6B /* QQEnterPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQEnterPasswordView.m; sourceTree = "<group>"; };
+		227784562216982A00196B6B /* QQValidationCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQValidationCodeView.h; sourceTree = "<group>"; };
+		227784572216982A00196B6B /* QQValidationCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQValidationCodeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2277840B22168C5400196B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2277842622168C5500196B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2277843122168C5500196B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2277840522168C5400196B6B = {
+			isa = PBXGroup;
+			children = (
+				2277841022168C5400196B6B /* QQAlipayPasswordView */,
+				2277842C22168C5500196B6B /* QQAlipayPasswordViewTests */,
+				2277843722168C5500196B6B /* QQAlipayPasswordViewUITests */,
+				2277840F22168C5400196B6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2277840F22168C5400196B6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2277840E22168C5400196B6B /* QQAlipayPasswordView.app */,
+				2277842922168C5500196B6B /* QQAlipayPasswordViewTests.xctest */,
+				2277843422168C5500196B6B /* QQAlipayPasswordViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2277841022168C5400196B6B /* QQAlipayPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				2277844922168D0100196B6B /* QQAlipayPasswordView */,
+				2277841122168C5400196B6B /* AppDelegate.h */,
+				2277841222168C5400196B6B /* AppDelegate.m */,
+				2277841422168C5400196B6B /* ViewController.h */,
+				2277841522168C5400196B6B /* ViewController.m */,
+				2277844622168CBA00196B6B /* QQTransferViewController.h */,
+				2277844722168CBA00196B6B /* QQTransferViewController.m */,
+				2277844A22168DE100196B6B /* QQTransferTableView.h */,
+				2277844B22168DE100196B6B /* QQTransferTableView.m */,
+				2277841722168C5400196B6B /* Main.storyboard */,
+				2277841D22168C5500196B6B /* Assets.xcassets */,
+				2277841F22168C5500196B6B /* LaunchScreen.storyboard */,
+				2277842222168C5500196B6B /* Info.plist */,
+				2277842322168C5500196B6B /* main.m */,
+				2277841A22168C5400196B6B /* QQAlipayPasswordView.xcdatamodeld */,
+			);
+			path = QQAlipayPasswordView;
+			sourceTree = "<group>";
+		};
+		2277842C22168C5500196B6B /* QQAlipayPasswordViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2277842D22168C5500196B6B /* QQAlipayPasswordViewTests.m */,
+				2277842F22168C5500196B6B /* Info.plist */,
+			);
+			path = QQAlipayPasswordViewTests;
+			sourceTree = "<group>";
+		};
+		2277843722168C5500196B6B /* QQAlipayPasswordViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2277843822168C5500196B6B /* QQAlipayPasswordViewUITests.m */,
+				2277843A22168C5500196B6B /* Info.plist */,
+			);
+			path = QQAlipayPasswordViewUITests;
+			sourceTree = "<group>";
+		};
+		2277844922168D0100196B6B /* QQAlipayPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				2277844D2216935600196B6B /* QQAlipayPasswordView.h */,
+				2277844E2216935600196B6B /* QQAlipayPasswordView.m */,
+				22778450221693C100196B6B /* QQConfirmationTableView.h */,
+				22778451221693C100196B6B /* QQConfirmationTableView.m */,
+				227784532216960800196B6B /* QQEnterPasswordView.h */,
+				227784542216960800196B6B /* QQEnterPasswordView.m */,
+				227784562216982A00196B6B /* QQValidationCodeView.h */,
+				227784572216982A00196B6B /* QQValidationCodeView.m */,
+			);
+			path = QQAlipayPasswordView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2277840D22168C5400196B6B /* QQAlipayPasswordView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2277843D22168C5500196B6B /* Build configuration list for PBXNativeTarget "QQAlipayPasswordView" */;
+			buildPhases = (
+				2277840A22168C5400196B6B /* Sources */,
+				2277840B22168C5400196B6B /* Frameworks */,
+				2277840C22168C5400196B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQAlipayPasswordView;
+			productName = QQAlipayPasswordView;
+			productReference = 2277840E22168C5400196B6B /* QQAlipayPasswordView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2277842822168C5500196B6B /* QQAlipayPasswordViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2277844022168C5500196B6B /* Build configuration list for PBXNativeTarget "QQAlipayPasswordViewTests" */;
+			buildPhases = (
+				2277842522168C5500196B6B /* Sources */,
+				2277842622168C5500196B6B /* Frameworks */,
+				2277842722168C5500196B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2277842B22168C5500196B6B /* PBXTargetDependency */,
+			);
+			name = QQAlipayPasswordViewTests;
+			productName = QQAlipayPasswordViewTests;
+			productReference = 2277842922168C5500196B6B /* QQAlipayPasswordViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2277843322168C5500196B6B /* QQAlipayPasswordViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2277844322168C5500196B6B /* Build configuration list for PBXNativeTarget "QQAlipayPasswordViewUITests" */;
+			buildPhases = (
+				2277843022168C5500196B6B /* Sources */,
+				2277843122168C5500196B6B /* Frameworks */,
+				2277843222168C5500196B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2277843622168C5500196B6B /* PBXTargetDependency */,
+			);
+			name = QQAlipayPasswordViewUITests;
+			productName = QQAlipayPasswordViewUITests;
+			productReference = 2277843422168C5500196B6B /* QQAlipayPasswordViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2277840622168C5400196B6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "彭倩倩";
+				TargetAttributes = {
+					2277840D22168C5400196B6B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2277842822168C5500196B6B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2277840D22168C5400196B6B;
+					};
+					2277843322168C5500196B6B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2277840D22168C5400196B6B;
+					};
+				};
+			};
+			buildConfigurationList = 2277840922168C5400196B6B /* Build configuration list for PBXProject "QQAlipayPasswordView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2277840522168C5400196B6B;
+			productRefGroup = 2277840F22168C5400196B6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2277840D22168C5400196B6B /* QQAlipayPasswordView */,
+				2277842822168C5500196B6B /* QQAlipayPasswordViewTests */,
+				2277843322168C5500196B6B /* QQAlipayPasswordViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2277840C22168C5400196B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2277842122168C5500196B6B /* LaunchScreen.storyboard in Resources */,
+				2277841E22168C5500196B6B /* Assets.xcassets in Resources */,
+				2277841922168C5400196B6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2277842722168C5500196B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2277843222168C5500196B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2277840A22168C5400196B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2277844C22168DE100196B6B /* QQTransferTableView.m in Sources */,
+				2277841C22168C5400196B6B /* QQAlipayPasswordView.xcdatamodeld in Sources */,
+				227784582216982A00196B6B /* QQValidationCodeView.m in Sources */,
+				22778452221693C100196B6B /* QQConfirmationTableView.m in Sources */,
+				2277844822168CBA00196B6B /* QQTransferViewController.m in Sources */,
+				227784552216960800196B6B /* QQEnterPasswordView.m in Sources */,
+				2277841622168C5400196B6B /* ViewController.m in Sources */,
+				2277842422168C5500196B6B /* main.m in Sources */,
+				2277841322168C5400196B6B /* AppDelegate.m in Sources */,
+				2277844F2216935600196B6B /* QQAlipayPasswordView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2277842522168C5500196B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2277842E22168C5500196B6B /* QQAlipayPasswordViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2277843022168C5500196B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2277843922168C5500196B6B /* QQAlipayPasswordViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2277842B22168C5500196B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2277840D22168C5400196B6B /* QQAlipayPasswordView */;
+			targetProxy = 2277842A22168C5500196B6B /* PBXContainerItemProxy */;
+		};
+		2277843622168C5500196B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2277840D22168C5400196B6B /* QQAlipayPasswordView */;
+			targetProxy = 2277843522168C5500196B6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2277841722168C5400196B6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2277841822168C5400196B6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2277841F22168C5500196B6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2277842022168C5500196B6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2277843B22168C5500196B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2277843C22168C5500196B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2277843E22168C5500196B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQAlipayPasswordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengqianqian.QQAlipayPasswordView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2277843F22168C5500196B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQAlipayPasswordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengqianqian.QQAlipayPasswordView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2277844122168C5500196B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQAlipayPasswordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengqianqian.QQAlipayPasswordViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQAlipayPasswordView.app/QQAlipayPasswordView";
+			};
+			name = Debug;
+		};
+		2277844222168C5500196B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQAlipayPasswordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengqianqian.QQAlipayPasswordViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQAlipayPasswordView.app/QQAlipayPasswordView";
+			};
+			name = Release;
+		};
+		2277844422168C5500196B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQAlipayPasswordViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengqianqian.QQAlipayPasswordViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QQAlipayPasswordView;
+			};
+			name = Debug;
+		};
+		2277844522168C5500196B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQAlipayPasswordViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengqianqian.QQAlipayPasswordViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QQAlipayPasswordView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2277840922168C5400196B6B /* Build configuration list for PBXProject "QQAlipayPasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2277843B22168C5500196B6B /* Debug */,
+				2277843C22168C5500196B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2277843D22168C5500196B6B /* Build configuration list for PBXNativeTarget "QQAlipayPasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2277843E22168C5500196B6B /* Debug */,
+				2277843F22168C5500196B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2277844022168C5500196B6B /* Build configuration list for PBXNativeTarget "QQAlipayPasswordViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2277844122168C5500196B6B /* Debug */,
+				2277844222168C5500196B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2277844322168C5500196B6B /* Build configuration list for PBXNativeTarget "QQAlipayPasswordViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2277844422168C5500196B6B /* Debug */,
+				2277844522168C5500196B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2277841A22168C5400196B6B /* QQAlipayPasswordView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2277841B22168C5400196B6B /* QQAlipayPasswordView.xcdatamodel */,
+			);
+			currentVersion = 2277841B22168C5400196B6B /* QQAlipayPasswordView.xcdatamodel */;
+			path = QQAlipayPasswordView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2277840622168C5400196B6B /* Project object */;
+}
